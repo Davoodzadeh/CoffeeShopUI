@@ -1,0 +1,38 @@
+.bac-image{
+    background-image: url("/public/images/headerBgDesktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.enable-animation{
+    animation: scroll 30s linear infinite;
+  }
+  @media screen and (max-width:640px) {
+    .enable-animation{
+        animation: scroll 10s linear infinite;
+  
+      }
+    
+  }
+@keyframes scroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0) }
+  }
+.marquee{
+  
+    position: relative;
+    
+    overflow: hidden;
+    user-select: none;
+    
+} 
+.marquee-content {  
+    flex-shrink: 0;
+  
+  justify-content: space-around;
+  min-width: 70%;
+   
+}  
+
+.marquee:hover .marquee-content {  
+    animation-play-state: paused;  
+}  

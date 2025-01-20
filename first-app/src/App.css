@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {  
+    .bg-gradient-baner {  
+        background: linear-gradient(156deg, rgba(21, 101, 192, 0) 0%, rgba(29, 23, 22, 1) 100%);  
+    }  
+} 
+
+@layer base {
+
+    @font-face {
+        font-family: "dana";
+        font-style: normal;
+	    font-weight: 500;
+        src: local("Dana"), url("/public/fonts/Dana/Webfonts/woff2/Dana-Medium.woff2") format("woff2"),
+        url("/public/fonts/Dana/Webfonts/woff/Dana-Medium.woff") format('woff'); /* FF39+,Chrome36+, Opera24+*/ /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "dana-thin";
+        font-style: normal;
+        font-weight: 100;
+        src: local("Dana"), url('/public/fonts/Dana/Webfonts/woff2/Dana-Thin.woff2')  format("woff2"),  /* FF39+,Chrome36+, Opera24+*/
+             url('/public/fonts/Dana/Webfonts/woff/Dana-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "dana-light";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Dana"), url('/public/fonts/Dana/Webfonts/woff2/Dana-Light.woff2')  format("woff2"),  /* FF39+,Chrome36+, Opera24+*/
+             url('/public/fonts/Dana/Webfonts/woff/Dana-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "dana-bold";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Dana"), url('/public/fonts/Dana/Webfonts/woff2/Dana-Bold.woff2')  format("woff2"),  /* FF39+,Chrome36+, Opera24+*/
+             url('/public/fonts/Dana/Webfonts/woff/Dana-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "morabba";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Morabba"), url('/public/fonts/Morabba/webfont/fonts/woff2/Morabba-Medium.woff2')  format("woff2"),  /* FF39+,Chrome36+, Opera24+*/
+             url('/public/fonts/Morabba/webfont/fonts/woff/Morabba-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "morabba-light";
+        font-style: normal;
+        font-weight: 100;
+        src: local("Morabba"), url('/public/fonts/Morabba/webfont/fonts/woff2/Morabba-Light.woff2')  format("woff2"),  /* FF39+,Chrome36+, Opera24+*/
+             url('/public/fonts/Morabba/webfont/fonts/woff/Morabba-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "morabba-bold";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Morabba"), url('/public/fonts/Morabba/webfont/fonts/woff2/Morabba-Bold.woff2')  format("woff2"),  /* FF39+,Chrome36+, Opera24+*/
+             url('/public/fonts/Morabba/webfont/fonts/woff/Morabba-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        font-display: swap;
+    }
+
+    body {
+        @apply font-dana w-full    bg-gray-100 dark:bg-brown-920   ;
+        
+
+    }
+
+
+
+    /* @media (max-width:1024px) {
+        body{
+            background-size: contain;
+            background-position-y: 192px;
+           
+
+            
+
+
+        }
+        
+    }
+    @media (max-width:768px) {
+        body{
+            background-size: contain;
+            background-position-y: 192px;
+           
+
+            
+
+
+        }
+        
+    }
+
+   
+    body + div {
+        all: inherit;
+
+    }
+    
+ 
+
+    
+
+@media (max-width:640px) {
+    body{
+        background-position-y: 120px;
+        background-size:contain;
+        background-image: url("/public/images/headerBgMobile.webp");
+        background-repeat: no-repeat;
+        
+
+    }
+    
+}
+
+
+body + div {
+    all: inherit;
+
+}
+ */
+
+
+
+}
+.circle
+{
+    @apply hidden md:flex items-center justify-center border rounded-full; 
+}
+.circle--main
+{
+    @apply absolute left-0 right-0 -bottom-24 mx-auto ;
+}
+.circle--lg
+{
+    @apply w-[203px] h-[203px] border border-white/25;
+}
+.circle--md
+{
+    @apply w-[145px] h-[145px] border border-white/50;
+}
+.circle--sm
+{
+    @apply w-[95px] h-[95px] border border-white/80
+}
+.Product
+{
+    background: linear-gradient(rgba(243, 244,246,0.65), rgba(243, 244,246,0.65)), url("../public/images/product-bg.png");
+    @apply bg-no-repeat ;
+    background-size: 100%;
+    height: 900px;
+}
+@media screen and (min-width:1025px){
+
+    html.dark .Product
+    {
+        background-image: url("../public/images/product-bg.png");
+    }
+}
+@media screen and (max-width:1025px){
+
+    .Product
+    {
+        background-image: none;
+    }
+}
