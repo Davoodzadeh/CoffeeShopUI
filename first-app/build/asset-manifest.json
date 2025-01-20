@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/CoffeeShopUI/static/css/main.bb100ff2.css",
+    "main.js": "/CoffeeShopUI/static/js/main.876258a1.js",
+    "static/media/headerBgDesktop.png": "/CoffeeShopUI/static/media/headerBgDesktop.7e103870a7baa001e56c.png",
+    "static/media/headerBgDesktop.webp": "/CoffeeShopUI/static/media/headerBgDesktop.985f39c12e39a6e653ec.webp",
+    "static/media/product-bg.png": "/CoffeeShopUI/static/media/product-bg.db1e0a2d2db7a7f2a976.png",
+    "static/media/headerBgTablet.webp": "/CoffeeShopUI/static/media/headerBgTablet.27e35f2dcf739cb55966.webp",
+    "static/media/category-right.jpg": "/CoffeeShopUI/static/media/category-right.3d6ad9163d3659d19117.jpg",
+    "static/media/Dana-Medium.woff": "/CoffeeShopUI/static/media/Dana-Medium.f104a86980d41d287d7a.woff",
+    "static/media/Dana-Light.woff": "/CoffeeShopUI/static/media/Dana-Light.2975852099d7f6887dad.woff",
+    "static/media/Dana-Bold.woff": "/CoffeeShopUI/static/media/Dana-Bold.ec7eef0a455c918154da.woff",
+    "static/media/headerBgMobile.webp": "/CoffeeShopUI/static/media/headerBgMobile.7f1bfedf9eaccf4549d9.webp",
+    "static/media/Dana-Thin.woff": "/CoffeeShopUI/static/media/Dana-Thin.39b3eac2a95952a873f7.woff",
+    "static/media/category-left.jpg": "/CoffeeShopUI/static/media/category-left.c97d3180fa78876c4f2f.jpg",
+    "static/media/Morabba-Medium.woff": "/CoffeeShopUI/static/media/Morabba-Medium.3c4b31fd50a3e48f4e28.woff",
+    "static/media/Morabba-Bold.woff": "/CoffeeShopUI/static/media/Morabba-Bold.b5e23b1f74fc12f297b7.woff",
+    "static/media/Morabba-Light.woff": "/CoffeeShopUI/static/media/Morabba-Light.daa65ceba8437bf03f61.woff",
+    "static/media/Dana-Light.woff2": "/CoffeeShopUI/static/media/Dana-Light.c08fc1ac1f3d62891a21.woff2",
+    "static/media/Dana-Bold.woff2": "/CoffeeShopUI/static/media/Dana-Bold.d5aa43bac6b9d2cba2d7.woff2",
+    "static/media/Dana-Medium.woff2": "/CoffeeShopUI/static/media/Dana-Medium.385b74fea6e3f06f855c.woff2",
+    "static/media/Dana-Thin.woff2": "/CoffeeShopUI/static/media/Dana-Thin.cc1e7a8ba5c7d20218e9.woff2",
+    "static/media/Morabba-Medium.woff2": "/CoffeeShopUI/static/media/Morabba-Medium.d5c86b98ded4266c9b00.woff2",
+    "static/media/Morabba-Light.woff2": "/CoffeeShopUI/static/media/Morabba-Light.d183588efcd41085c8ba.woff2",
+    "static/media/Morabba-Bold.woff2": "/CoffeeShopUI/static/media/Morabba-Bold.b6f9bbb0f443c2645587.woff2",
+    "index.html": "/CoffeeShopUI/index.html",
+    "main.bb100ff2.css.map": "/CoffeeShopUI/static/css/main.bb100ff2.css.map",
+    "main.876258a1.js.map": "/CoffeeShopUI/static/js/main.876258a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb100ff2.css",
+    "static/js/main.876258a1.js"
+  ]
+}
